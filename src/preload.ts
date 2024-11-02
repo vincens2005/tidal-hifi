@@ -41,7 +41,7 @@ let tidalController: TidalController;
 
 // TODO: replace with setting
 // eslint-disable-next-line no-constant-condition
-if (true) {
+if (false) {
   tidalController = new DomTidalController();
 } else {
   tidalController = new MediaSessionTidalController();
